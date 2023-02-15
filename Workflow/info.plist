@@ -95,7 +95,12 @@
 
 readonly email_name="${1//[^[:alnum:]]}"
 readonly email="${email_name}@${email_service}"
-readonly url="https://${email_service}/inbox/${email_name}"
+
+if [[ "${email_service}" == 'maildrop.cc' ]]; then
+  readonly url="https://${email_service}/inbox/?mailbox=${email_name}"
+else
+  readonly url="https://${email_service}/inbox/${email_name}"
+fi
 
 echo -n "${email}"
 notification 'Temporary email address copied to clipboard'
@@ -322,7 +327,7 @@ On supported web browsers, the email inbox will open in a background tab and the
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>2022.1</string>
+	<string>2023.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/vitorgalvao/temporary-email-workflow/</string>
 </dict>

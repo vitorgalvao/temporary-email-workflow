@@ -2,7 +2,7 @@
 
 Generate disposable email inboxes
 
-<a href='https://alfred.app/workflows/vitor/temporary-email'>⤓ Install From the Alfred Gallery</a>
+<a href='https://alfred.app/workflows/vitor/temporary-email'>⤓ Install on the Alfred Gallery</a>
 
 ## Usage
 
