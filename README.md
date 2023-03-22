@@ -2,11 +2,11 @@
 
 Generate disposable email inboxes
 
-<a href='https://alfred.app/workflows/vitor/temporary-email'>⤓ Install on the Alfred Gallery</a>
+[⤓ Install on the Alfred Gallery](https://alfred.app/workflows/vitor/temporary-email)
 
 ## Usage
 
-Create a temporary email address via the Email Keyword (default: `tmpmail`). A random inbox name is used unless you type one.
+Create a temporary email address via the `tmpmail` keyword. A random inbox name is used unless you type one.
 
 ![Creating a temporary email](Workflow/images/about/tmpmail.png)
 
