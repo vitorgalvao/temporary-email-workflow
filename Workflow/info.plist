@@ -336,7 +336,7 @@ On supported web browsers, the email inbox will open in a background tab and the
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2023.4</string>
+	<string>2024.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/vitorgalvao/temporary-email-workflow/</string>
 </dict>
