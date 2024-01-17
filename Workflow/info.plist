@@ -308,20 +308,20 @@ On supported web browsers, the email inbox will open in a background tab and the
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string>guerrillamail.com</string>
+				<string>sharklasers.com</string>
 				<key>pairs</key>
 				<array>
 					<array>
-						<string>Guerilla Mail</string>
-						<string>guerrillamail.com</string>
+						<string>Maildrop</string>
+						<string>maildrop.cc</string>
 					</array>
 					<array>
 						<string>Harakirimail</string>
 						<string>harakirimail.com</string>
 					</array>
 					<array>
-						<string>Maildrop</string>
-						<string>maildrop.cc</string>
+						<string>Shark Lasers</string>
+						<string>sharklasers.com</string>
 					</array>
 				</array>
 			</dict>
