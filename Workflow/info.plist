@@ -175,6 +175,8 @@ fi</string>
 				<integer>1</integer>
 				<key>keyword</key>
 				<string>{var:email_keyword}</string>
+				<key>skipuniversalaction</key>
+				<true/>
 				<key>subtext</key>
 				<string>Instant disposable email</string>
 				<key>text</key>
