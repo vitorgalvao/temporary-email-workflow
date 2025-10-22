@@ -124,8 +124,8 @@ elif [[ "${front_browser}" == 'Google Chrome'* || "${front_browser}" == 'Chromiu
       set active tab index to tabIndex
     end tell
   "
-# As of Orion 0.99 (127.2) and Arc 1.40.1 (49250), neither exposes tab indexes via AppleScript
-elif [[ "${front_browser}" == 'Orion' || "${front_browser}" == 'Arc' ]]; then
+# As of Orion 0.99.136, it does not expose tab indexes via AppleScript
+elif [[ "${front_browser}" == 'Orion' ]]; then
   osascript -e "
     tell application \"${front_browser}\" to tell front window
       make new tab with properties {URL:\"${url}\"}
